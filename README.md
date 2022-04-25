@@ -23,7 +23,19 @@ ethminer -h # list of commands
 
 # Example to start mining
 ```bash 
-sudo ethminer -U -P stratum://0x385E6bA2F90E581f7BF37a103932F920eea70400@us1.ethermine.org:4444 -v 3
+
+ETHERUM MINING GPU
+
+Entrar na pasta
+
+cd /home/viktor/miner/ethminer_RTX30series/build/ethminer
+
+executar o comando:
+
+sudo ./ethminer -U -P stratum://0xD814ca2cb2718aF87665208445F389F6d39505D3@us2.ethermine.org:4444 -v 3
+
+digitar a senha do sudo
+
 ```
 
 - Where 0x385E6bA2F90E581f7BF37a103932F920eea70400 - is the wallet 
